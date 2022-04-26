@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 95.601 sec <<< FAILURE! - in TestSuite
+login(com.bank.testcases.LoginPageTest)  Time elapsed: 5.837 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.LoginPageTest.login(LoginPageTest.java:27)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.577 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.562 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.516 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.452 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.526 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.51 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.559 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.57 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
+loginData(com.bank.testcases.TC_001_DDTLogin)  Time elapsed: 5.622 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [HubSpot Home] but found [HubSpot Login]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
+
