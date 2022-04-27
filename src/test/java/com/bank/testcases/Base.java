@@ -19,7 +19,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+import org.testng.asserts.SoftAssert;
 
+import com.bank.PageObjects.LoginPage;
 import com.bank.Utils.ReadConfig;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -83,15 +85,15 @@ public class Base {
 		System.out.println("Screenshoot taken");
 		
 	}
-	public String randomString() {
+	public static String  randomString () {
 	 String random=RandomStringUtils.randomAlphabetic(6);
 	 return random;
 	}
-	public String randomNumber() {
-		 String random=RandomStringUtils.randomNumeric(6);
+	public static String randomNumber() {
+		 String random=RandomStringUtils.randomNumeric(10);
 		 return random;
 		}
-
+	
 	@AfterMethod
 	public void teardown() {
 		driver.quit();
