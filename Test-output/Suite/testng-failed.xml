@@ -11,7 +11,7 @@
         <methods>
           <include name="initilization"/>
           <include name="teardown"/>
-          <include name="addNewCustomer"/>
+          <include name="addNewCustomer" invocation-numbers="0 1 2 3 4 5 6"/>
         </methods>
       </class> <!-- com.bank.testcases.TC_AddCustomerTest_003 -->
     </classes>

@@ -85,7 +85,7 @@ public class Base {
 		System.out.println("Screenshoot taken");
 		
 	}
-	public static String  randonString () {
+	public static String  randomString () {
 	 String random=RandomStringUtils.randomAlphabetic(6);
 	 return random;
 	}

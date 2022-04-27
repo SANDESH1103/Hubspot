@@ -40,10 +40,10 @@ public class TC_AddCustomerTest_003 extends Base {
 		addcust.custpinno(Pin);
 		addcust.custtelephoneno(cphone);
 
-		String email = randonString() + "@gmail.com";
+		String email = randomString() + "@gmail.com";
 		addcust.custemailid(email);
 		addcust.custpassword(pass);
-		addcust.reset();
+		addcust.custsubmit();
 
 		Thread.sleep(3000);
 
@@ -65,7 +65,7 @@ public class TC_AddCustomerTest_003 extends Base {
 	}
 	
 	
-	@DataProvider(name="custumer data")
+	@DataProvider(name="customer data")
 	String [][] getData() throws IOException
 	{
 		String path=System.getProperty("user.dir")+"/src/test/java/com/bank/Testdata/fb.xlsx";
