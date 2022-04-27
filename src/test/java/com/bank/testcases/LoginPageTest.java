@@ -15,11 +15,11 @@ public class LoginPageTest extends Base {
 		log.info("Excution starts");
 		LoginPage page = new LoginPage(driver);
 		log.info("Take username");
-		page.getuser(username);
+		page.setUserName(username);
 		log.info("Take password");
-		page.getpass(password);
-		page.clickSignIn();
-		Thread.sleep(5000);
+		page.setPassword(password);
+		page.clickSubmit();
+		Thread.sleep(10000);
 		String title=driver.getTitle();
 		SoftAssert softAssert=new SoftAssert();
 	    softAssert.assertEquals(title, "HubSpot Home");

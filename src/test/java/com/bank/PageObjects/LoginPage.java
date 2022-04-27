@@ -2,48 +2,59 @@ package com.bank.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
 	
-	 
-	@FindBy(xpath = "//input[@id='username']")
-	 WebElement loginElement;
-	@FindBy(xpath = "//input[@id='password']")
-	 WebElement passElement;
-	@FindBy(xpath = "//button[@id='loginBtn']")
-    WebElement signinElement;
-
+WebDriver ldriver;
+	
+	public LoginPage(WebDriver rdriver)
+	{
+		ldriver=rdriver;
+		PageFactory.initElements(rdriver, this);
+	}
+		
+	@FindBy(name="uid")
+	@CacheLookup
+	WebElement txtUserName;
+	
+	@FindBy(name="password")
+	@CacheLookup
+	WebElement txtPassword;
+	
+	@FindBy(name="btnLogin")
+	@CacheLookup
+	WebElement btnLogin;
 	
 	
-	 
-
-	public LoginPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+	@FindBy(xpath="/html/body/div[3]/div/ul/li[15]/a")
+	@CacheLookup
+	WebElement lnkLogout;
+	
+	
+	
+	public void setUserName(String uname)
+	{
+		txtUserName.sendKeys(uname);
 	}
-
-	public void getuser(String user) {
-		while (true) {
-
-			try {
-				loginElement.sendKeys(user);
-				break;
-			} catch (Exception e) {
-				System.out.println("some problem");
-				break;
-			}
-		}
-
+	
+	public void setPassword(String pwd)
+	{
+		txtPassword.sendKeys(pwd);
 	}
-
-	public  void  getpass(String pass) {
-		passElement.sendKeys(pass);
-	}
-
-	public  void clickSignIn() {
-		signinElement.click();
+	
+	
+	public void clickSubmit()
+	{
+		btnLogin.click();
+	}	
+	
+	public void clickLogout()
+	{
+		lnkLogout.click();
 	}
 
 }

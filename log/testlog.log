@@ -537,3 +537,172 @@
 2022-04-26 23:17:52,494 - com.bank.testcases.Base -INFO - username provided
 2022-04-26 23:17:52,733 - com.bank.testcases.Base -INFO - password provided
 2022-04-26 23:17:52,906 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:56:08,638 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 15:56:08,716 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 15:56:08,910 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 15:56:18,077 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:56:18,207 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:56:18,316 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:56:26,047 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:56:26,181 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:56:26,305 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:56:33,902 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:56:34,047 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:56:34,184 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:56:41,602 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:56:41,731 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:56:41,848 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:56:49,681 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:56:49,794 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:56:49,914 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:56:57,908 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:56:58,041 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:56:58,164 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:57:07,274 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:57:07,444 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:57:07,579 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:57:15,339 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:57:15,491 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:57:15,627 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 15:57:23,701 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 15:57:23,871 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 15:57:23,982 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:04:39,256 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:04:39,262 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:04:39,440 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:05:03,199 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:03,306 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:03,395 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:05:11,331 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:11,451 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:11,569 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:05:18,890 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:19,012 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:19,123 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:05:26,284 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:26,405 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:26,482 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:05:33,881 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:33,999 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:34,120 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:05:41,526 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:41,637 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:41,729 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:05:50,401 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:50,674 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:50,811 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:05:59,369 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:05:59,477 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:05:59,591 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:06:08,457 - com.bank.testcases.Base -INFO - username provided
+2022-04-27 16:06:08,685 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 16:06:08,801 - com.bank.testcases.Base -INFO - click on signin button
+2022-04-27 16:17:00,109 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:17:00,115 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:17:00,279 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:17:23,705 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:17:23,706 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:17:23,911 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:17:49,141 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:17:49,142 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:17:49,332 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:18:26,911 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:18:26,912 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:18:27,134 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:18:59,930 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:18:59,931 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:19:00,161 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:19:36,477 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:19:36,479 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:21:03,571 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:21:03,576 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:21:03,817 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:21:28,620 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:21:28,621 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:21:28,819 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:21:54,537 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:21:54,537 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:21:54,787 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:22:19,748 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:22:19,749 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:22:19,995 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:22:43,556 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:22:43,557 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:22:43,761 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:23:07,709 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:23:07,713 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:23:07,887 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:24:28,659 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:24:28,665 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:24:28,839 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:24:52,327 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:24:52,327 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:24:52,506 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:25:27,179 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:25:27,180 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:25:27,397 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:27:00,425 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:27:00,434 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:27:00,612 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:27:24,536 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:27:24,537 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:27:24,738 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:27:47,855 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:27:47,856 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:27:48,071 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:28:22,745 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:28:22,746 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:28:22,918 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:34:28,956 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:34:28,966 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:34:29,177 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 16:34:52,460 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 16:34:52,461 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 16:34:52,650 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 17:48:51,931 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 17:48:52,020 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 17:48:52,236 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 17:49:17,166 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:49:17,260 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:49:29,532 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:49:29,657 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:49:44,964 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:49:45,199 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:49:58,160 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:49:58,307 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:50:09,461 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:50:09,700 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:50:22,538 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:50:22,787 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:50:33,945 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:50:34,118 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:50:47,289 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:50:47,570 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:51:03,098 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 17:51:03,203 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 17:51:13,997 - com.bank.testcases.Base -INFO - User name is provided
+2022-04-27 17:51:14,193 - com.bank.testcases.Base -INFO - Passsword is provided
+2022-04-27 17:51:18,955 - com.bank.testcases.Base -INFO - providing customer details....
+2022-04-27 17:51:36,780 - com.bank.testcases.Base -INFO - validation started....
+2022-04-27 17:51:36,845 - com.bank.testcases.Base -INFO - test case passed....
+2022-04-27 18:39:28,014 - com.bank.testcases.Base -INFO - Excution starts
+2022-04-27 18:39:28,087 - com.bank.testcases.Base -INFO - Take username
+2022-04-27 18:39:28,181 - com.bank.testcases.Base -INFO - Take password
+2022-04-27 18:39:45,655 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:39:45,717 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:39:55,405 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:39:55,457 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:40:04,872 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:40:04,922 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:40:15,830 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:40:15,881 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:40:25,540 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:40:25,602 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:40:35,787 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:40:35,842 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:40:45,817 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:40:45,868 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:40:55,649 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:40:55,705 - com.bank.testcases.Base -INFO - password provided
+2022-04-27 18:41:06,639 - com.bank.testcases.Base -INFO - user name provided
+2022-04-27 18:41:06,691 - com.bank.testcases.Base -INFO - password provided
