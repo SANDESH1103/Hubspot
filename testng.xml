@@ -8,8 +8,9 @@
 	<test name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.bank.testcases.LoginPageTest" />
-			<class name="com.bank.testcases.TC_001_DDTLogin" />
+			<!--<class name="com.bank.testcases.LoginPageTest" />
+			<class name="com.bank.testcases.TC_001_DDTLogin" /> -->
+			<class name="com.bank.testcases.TC_004_contactPage.java"></class>
 		</classes>
 	</test> <!-- Test -->
 	<!--  <test  name="Test 1">

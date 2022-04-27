@@ -45,4 +45,3 @@ public class TC_001_DDTLogin extends Base {
         return loginData;
     }
 }
-;

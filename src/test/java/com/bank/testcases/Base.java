@@ -83,12 +83,12 @@ public class Base {
 		System.out.println("Screenshoot taken");
 		
 	}
-	public String randomString() {
+	public static String  randonString () {
 	 String random=RandomStringUtils.randomAlphabetic(6);
 	 return random;
 	}
-	public String randomNumber() {
-		 String random=RandomStringUtils.randomNumeric(6);
+	public static String randomNumber() {
+		 String random=RandomStringUtils.randomNumeric(10);
 		 return random;
 		}
 
