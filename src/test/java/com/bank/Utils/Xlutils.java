@@ -6,6 +6,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import javax.naming.ldap.SortControl;
+
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -77,6 +79,9 @@ public class Xlutils {
 		sheet = wb.getSheet(sheetname);
 		row = sheet.getRow(rownum);
 		cell = row.getCell(cellnum);
+	
+		// here we are not fetching the value of cell because if we do that it may give exception for value other than that type 
+		// so we directly give this cell to DataFormatter class and converted into String type
 		String data;
 		try {
 			DataFormatter dataFormatter = new DataFormatter();
@@ -98,6 +103,7 @@ public class Xlutils {
 		sheet = wb.getSheet(sheetname);
 		row = sheet.getRow(rownum);
 		cell = row.createCell(cellnum);
+		//here we know that value given as input is string so we take setCellValue of String type
 		cell.setCellValue(data);
 		fo = new FileOutputStream(xlfile);
 		wb.write(fo);
