@@ -7,11 +7,25 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.bank.testcases.LoginPageTest">
+        <methods>
+          <include name="initilization"/>
+          <include name="login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bank.testcases.LoginPageTest -->
+      <class name="com.bank.testcases.TC_001_DDTLogin">
+        <methods>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="initilization"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bank.testcases.TC_001_DDTLogin -->
       <class name="com.bank.testcases.TC_AddCustomerTest_003">
         <methods>
           <include name="initilization"/>
           <include name="teardown"/>
-          <include name="addNewCustomer" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="addNewCustomer" invocation-numbers="0 1 2 3 4 6"/>
         </methods>
       </class> <!-- com.bank.testcases.TC_AddCustomerTest_003 -->
     </classes>
