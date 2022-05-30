@@ -22,7 +22,7 @@ public class Reporting extends TestListenerAdapter{
 	public ExtentReports extent;
 	public ExtentTest logger;
 	
-		
+	@Override	
 	public void onStart(ITestContext testContext)
 	{
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
@@ -43,13 +43,13 @@ public class Reporting extends TestListenerAdapter{
 		//htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
 		htmlReporter.config().setTheme(Theme.DARK);
 	}
-	
+	@Override
 	public void onTestSuccess(ITestResult tr)
 	{
 		logger=extent.createTest(tr.getName()); // create new entry in th report
 		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
 	}
-	
+	@Override
 	public void onTestFailure(ITestResult tr)
 	{
 		logger=extent.createTest(tr.getName()); // create new entry in th report
@@ -71,13 +71,13 @@ public class Reporting extends TestListenerAdapter{
 		}
 		
 	}
-	
+	@Override
 	public void onTestSkipped(ITestResult tr)
 	{
 		logger=extent.createTest(tr.getName()); // create new entry in th report
 		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
 	}
-	
+	@Override
 	public void onFinish(ITestContext testContext)
 	{
 		extent.flush();

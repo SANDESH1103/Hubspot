@@ -68,7 +68,7 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.manage().deleteAllCookies();
 		driver.get(url);
-		log=org.apache.log4j.Logger.getLogger(Base.class);
+		log=Logger.getLogger(Base.class);
 		PropertyConfigurator.configure("Log4j.properties");
 	  
 	

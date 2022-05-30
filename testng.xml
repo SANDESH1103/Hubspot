@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Suite">
   <test thread-count="5" name="Test">
+=======
+<suite name="Suite" >
+	<listeners>
+		<listener class-name="com.bank.Utils.Reporting" />
+
+	</listeners>
+	<test name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.bank.testcases.LoginPageTest" />
+			<class name="com.bank.testcases.TC_001_DDTLogin" /> 
+		    <class name="com.bank.testcases.TC_AddCustomerTest_003" /> 
+		</classes>
+	</test> <!-- Test -->
+	<!--  <test  name="Test 1">
+  <parameter name="browser" value="ff"/>
+>>>>>>> 03fff49addc30c082a7fc89f3ea2bfc18476cd64
     <classes>
       <class name="com.bank.testcases.LoginPageTest"/>
       <class name="com.bank.testcases.TC_001_DDTLogin"/>

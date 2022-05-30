@@ -44,6 +44,7 @@ public class TC_AddCustomerTest_003 extends Base {
 		addcust.custemailid(email);
 		addcust.custpassword(pass);
 		addcust.custsubmit();
+		captureScreen(driver, "CustomerD");
 
 		Thread.sleep(3000);
 
