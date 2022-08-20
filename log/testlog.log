@@ -888,3 +888,72 @@
 2022-05-13 21:10:05,648 - com.bank.testcases.Base -INFO - Passsword is provided
 2022-05-13 21:10:10,154 - com.bank.testcases.Base -INFO - providing customer details....
 2022-05-13 21:10:23,871 - com.bank.testcases.Base -INFO - validation started....
+2022-08-20 13:04:16,902 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 13:04:16,965 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 13:04:17,046 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 13:05:08,087 - com.bank.testcases.Base -INFO - user name provided
+2022-08-20 13:05:08,150 - com.bank.testcases.Base -INFO - password provided
+2022-08-20 13:06:04,394 - com.bank.testcases.Base -INFO - user name provided
+2022-08-20 13:06:04,455 - com.bank.testcases.Base -INFO - password provided
+2022-08-20 13:07:02,047 - com.bank.testcases.Base -INFO - user name provided
+2022-08-20 13:07:02,105 - com.bank.testcases.Base -INFO - password provided
+2022-08-20 13:08:00,466 - com.bank.testcases.Base -INFO - user name provided
+2022-08-20 13:08:00,530 - com.bank.testcases.Base -INFO - password provided
+2022-08-20 13:08:34,447 - com.bank.testcases.Base -INFO - user name provided
+2022-08-20 13:08:34,507 - com.bank.testcases.Base -INFO - password provided
+2022-08-20 13:09:24,474 - com.bank.testcases.Base -INFO - User name is provided
+2022-08-20 13:09:24,537 - com.bank.testcases.Base -INFO - Passsword is provided
+2022-08-20 13:11:12,646 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 13:11:12,669 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 13:11:12,791 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 14:12:27,406 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 14:12:27,426 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 14:12:27,493 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 14:24:49,614 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 14:24:49,634 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 14:24:49,709 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 14:52:31,251 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 14:52:31,289 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 14:52:31,415 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 14:57:01,466 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 14:57:01,501 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 14:57:01,625 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 15:00:30,099 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 15:00:30,137 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 15:00:30,272 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 15:26:56,376 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 15:26:56,419 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 15:26:56,548 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 15:34:16,334 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 15:34:16,378 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 15:34:16,547 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 16:59:59,466 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 16:59:59,548 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 16:59:59,760 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 17:07:54,726 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 17:07:54,772 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 17:07:54,893 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 17:14:17,413 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 17:14:17,455 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 17:14:17,703 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 17:24:13,136 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 17:24:13,183 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 17:24:13,307 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 17:30:01,005 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 17:30:01,054 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 17:30:01,184 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 17:41:21,140 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 17:41:21,188 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 17:41:21,311 - com.bank.testcases.Base -INFO - Take password
+2022-08-20 19:39:53,464 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 19:39:53,526 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 19:44:43,312 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 19:44:43,337 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 19:46:32,116 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 19:46:32,179 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 19:53:54,027 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 19:53:54,076 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 20:11:28,378 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 20:11:28,425 - com.bank.testcases.Base -INFO - Take username
+2022-08-20 21:33:28,696 - com.bank.testcases.Base -INFO - Excution starts
+2022-08-20 21:33:28,730 - com.bank.testcases.Base -INFO - Take username

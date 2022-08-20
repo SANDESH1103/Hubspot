@@ -1,7 +1,9 @@
 com\bank\testcases\TC_001_DDTLogin.class
 com\bank\Utils\Xlutils.class
+com\bank\PageObjects\AddCustomerPage.class
 com\bank\Utils\Reporting.class
 com\bank\testcases\Base.class
+com\bank\testcases\TC_AddCustomerTest_003.class
 com\bank\PageObjects\LoginPage.class
 com\bank\testcases\LoginPageTest.class
 com\bank\Utils\ReadConfig.class

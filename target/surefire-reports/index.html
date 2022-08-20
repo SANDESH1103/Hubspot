@@ -24,23 +24,23 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+            <a href="#" panel-name="suite-DemoSuite" class="navigator-link">
+              <span class="suite-name border-failed">DemoSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                  <a href="#" panel-name="test-xml-DemoSuite" class="navigator-link ">
                     <span>D:\Solution1\Rank\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                  <a href="#" panel-name="testlist-DemoSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                  <a href="#" panel-name="group-DemoSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                  <a href="#" panel-name="times-DemoSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                  <a href="#" panel-name="reporter-DemoSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                  <a href="#" panel-name="ignored-methods-DemoSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                  <a href="#" panel-name="chronological-DemoSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,66 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 10 failed,   </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-DemoSuite" class="hide-methods failed suite-DemoSuite"> (hide)</a> <!-- hide-methods failed suite-DemoSuite -->
+                      <a href="#" panel-name="suite-DemoSuite" class="show-methods failed suite-DemoSuite"> (show)</a> <!-- show-methods failed suite-DemoSuite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content failed suite-DemoSuite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="com.bank.testcases.LoginPageTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(sllsdjdkkd, lslkdkkxkx)">loginData(sllsdjdkkd, lslkdkkxkx)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(siiskaskkdjdj, lskkdkkkd)">loginData(siiskaskkdjdj, lskkdkkkd)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(lskkkdkd, siinsmmsms)">loginData(lskkkdkd, siinsmmsms)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(iiejskdkkdk, skkdjxjxkkkz)">loginData(iiejskdkkdk, skkdjxjxkkkz)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(jdkddkkkd, kdddkkdkd)">loginData(jdkddkkkd, kdddkkdkd)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(lskksksk, llsllsls)">loginData(lskksksk, llsllsls)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(s7021954183@gmail.com, Sa@7769090757)">loginData(s7021954183@gmail.com, Sa@7769090757)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(hsggsgsgs, jdjdjjf)">loginData(hsggsgsgs, jdjdjjf)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bank.testcases.TC_001_DDTLogin" hash-for-method="loginData(lskskskks, kdkdkdkkd)">loginData(lskskskks, kdkdkdkkd)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-DemoSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -163,8 +118,8 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+        <div panel-name="suite-DemoSuite" class="panel DemoSuite">
+          <div class="suite-DemoSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
               <span class="class-name">com.bank.testcases.LoginPageTest</span>
@@ -175,192 +130,17 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.LoginPageTest.login(LoginPageTest.java:27)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.createNode(String)&quot; because &quot;com.bank.Utils.Reporting.logger&quot; is null
+	at com.bank.testcases.LoginPageTest.login(LoginPageTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.bank.testcases.TC_001_DDTLogin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(sllsdjdkkd, lslkdkkxkx)">
-                  </a> <!-- loginData(sllsdjdkkd, lslkdkkxkx) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(sllsdjdkkd, lslkdkkxkx)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(siiskaskkdjdj, lskkdkkkd)">
-                  </a> <!-- loginData(siiskaskkdjdj, lskkdkkkd) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(siiskaskkdjdj, lskkdkkkd)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(lskkkdkd, siinsmmsms)">
-                  </a> <!-- loginData(lskkkdkd, siinsmmsms) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(lskkkdkd, siinsmmsms)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(iiejskdkkdk, skkdjxjxkkkz)">
-                  </a> <!-- loginData(iiejskdkkdk, skkdjxjxkkkz) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(iiejskdkkdk, skkdjxjxkkkz)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(jdkddkkkd, kdddkkdkd)">
-                  </a> <!-- loginData(jdkddkkkd, kdddkkdkd) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(jdkddkkkd, kdddkkdkd)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(lskksksk, llsllsls)">
-                  </a> <!-- loginData(lskksksk, llsllsls) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(lskksksk, llsllsls)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(s7021954183@gmail.com, Sa@7769090757)">
-                  </a> <!-- loginData(s7021954183@gmail.com, Sa@7769090757) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(s7021954183@gmail.com, Sa@7769090757)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(hsggsgsgs, jdjdjjf)">
-                  </a> <!-- loginData(hsggsgsgs, jdjdjjf) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(hsggsgsgs, jdjdjjf)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginData(lskskskks, kdkdkdkkd)">
-                  </a> <!-- loginData(lskskskks, kdkdkdkkd) -->
-                  <span class="method-name">loginData</span>
-                  <span class="parameters">(lskskskks, kdkdkdkkd)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [HubSpot Home] but found [HubSpot Login]
-	at com.bank.testcases.TC_001_DDTLogin.loginData(TC_001_DDTLogin.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
+          </div> <!-- suite-DemoSuite-class-failed -->
+        </div> <!-- panel DemoSuite -->
+        <div panel-name="test-xml-DemoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">D:\Solution1\Rank\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -368,120 +148,83 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite name=&quot;DemoSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.bank.Utils.Reporting&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.bank.testcases.LoginPageTest&quot;/&gt;
-      &lt;class name=&quot;com.bank.testcases.TC_001_DDTLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+&lt;/suite&gt; &lt;!-- DemoSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
+        <div panel-name="testlist-DemoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
+            <span class="header-content">Tests for DemoSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
+        <div panel-name="group-DemoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
+            <span class="header-content">Groups for DemoSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
+        <div panel-name="times-DemoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
+            <span class="header-content">Times for DemoSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
+suiteTableInitFunctions.push('tableData_DemoSuite');
+function tableData_DemoSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'com.bank.testcases.LoginPageTest')
-data.setCell(0, 3, 5819);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginData')
-data.setCell(1, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(1, 3, 5621);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginData')
-data.setCell(2, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(2, 3, 5577);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginData')
-data.setCell(3, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(3, 3, 5570);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginData')
-data.setCell(4, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(4, 3, 5560);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginData')
-data.setCell(5, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(5, 3, 5559);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'loginData')
-data.setCell(6, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(6, 3, 5525);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginData')
-data.setCell(7, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(7, 3, 5516);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'loginData')
-data.setCell(8, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(8, 3, 5509);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'loginData')
-data.setCell(9, 2, 'com.bank.testcases.TC_001_DDTLogin')
-data.setCell(9, 3, 5452);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+data.setCell(0, 3, 241);
+window.suiteTableData['DemoSuite']= { tableData: data, tableDiv: 'times-div-DemoSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+              <span class="suite-total-time">Total running time: 241 ms</span>
+              <div id="times-div-DemoSuite">
+              </div> <!-- times-div-DemoSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
+        <div panel-name="reporter-DemoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
+            <span class="header-content">Reporter output for DemoSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
+        <div panel-name="ignored-methods-DemoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
+        <div panel-name="chronological-DemoSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -496,140 +239,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login</span>
-                <span class="method-start">5513 ms</span>
+                <span class="method-start">63588 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11350 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.bank.testcases.TC_001_DDTLogin</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">13689 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(hsggsgsgs, jdjdjjf)</span>
-                <span class="method-start">16191 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">21769 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">22502 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(lskskskks, kdkdkdkkd)</span>
-                <span class="method-start">25074 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">30636 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">31362 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(lskksksk, llsllsls)</span>
-                <span class="method-start">33892 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">39409 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">40535 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(jdkddkkkd, kdddkkdkd)</span>
-                <span class="method-start">43343 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">48796 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">49694 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(lskkkdkd, siinsmmsms)</span>
-                <span class="method-start">52032 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">57558 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">58449 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(sllsdjdkkd, lslkdkkxkx)</span>
-                <span class="method-start">60898 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">66408 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">67110 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(siiskaskkdjdj, lskkdkkkd)</span>
-                <span class="method-start">69641 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">75201 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">76055 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(iiejskdkkdk, skkdjxjxkkkz)</span>
-                <span class="method-start">78418 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">83990 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initilization(chrome)</span>
-                <span class="method-start">84649 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginData(s7021954183@gmail.com, Sa@7769090757)</span>
-                <span class="method-start">86927 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">92550 ms</span>
+                <span class="method-start">64581 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -10,17 +10,22 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.checkerframework.common.value.qual.StaticallyExecutable;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.bank.PageObjects.LoginPage;
 import com.bank.Utils.ReadConfig;
 
@@ -34,15 +39,13 @@ public class Base {
 	public  String username= read.getUsername();
 	public  String password= read.getPassword();
 	public static Logger log;
+	public static ExtentTest test;
 	
 	
 	@Parameters ("browser")
 	@BeforeMethod
 	public void initilization(String browser) {
-		// System.setProperty("webdriver.chrome.driver",
-		// System.getProperty(("user.dir")+ ""))
-
-		//String browser = "chrome";
+		
 	
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",read.getChromePath());
@@ -69,11 +72,14 @@ public class Base {
 		driver.manage().deleteAllCookies();
 		driver.get(url);
 		log=Logger.getLogger(Base.class);
-		PropertyConfigurator.configure("Log4j.properties");
+		PropertyConfigurator.configure("log4j.properties");
 	  
 	
 	}
-	public void captureScreen(WebDriver driver,String tname)   {
+	
+	
+	
+	public  static  String captureScreen ( WebDriver driver,String tname)   {
 		TakesScreenshot shoot=(TakesScreenshot)driver;
 		File src = shoot.getScreenshotAs(OutputType.FILE);
 		File dec =new File(System.getProperty("user.dir")+"/Screenshoot/"+ tname +".png");
@@ -84,6 +90,15 @@ public class Base {
 		}
 		System.out.println("Screenshoot taken");
 		
+		return dec.getAbsolutePath();
+	}
+	public static String captureScreen(WebDriver driver)   {
+		TakesScreenshot shoot=(TakesScreenshot)driver;
+		String base64Code = shoot.getScreenshotAs(OutputType.BASE64);
+		
+		System.out.println("Screenshoot taken");
+		
+		return base64Code;
 	}
 	public static String  randomString () {
 	 String random=RandomStringUtils.randomAlphabetic(6);
@@ -93,6 +108,12 @@ public class Base {
 		 String random=RandomStringUtils.randomNumeric(10);
 		 return random;
 		}
+	
+//	public static void sendKeys_Custom(WebElement element,String methodName,String valueTobeSend ) {
+//		element.sendKeys(valueTobeSend);
+//		
+//		
+//	}
 	
 	@AfterMethod
 	public void teardown() {

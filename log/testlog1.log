@@ -888,3 +888,72 @@
 2022-05-13 21:10:05,648 [main] INFO com.bank.testcases.Base - Passsword is provided
 2022-05-13 21:10:10,154 [main] INFO com.bank.testcases.Base - providing customer details....
 2022-05-13 21:10:23,871 [main] INFO com.bank.testcases.Base - validation started....
+2022-08-20 13:04:16,902 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 13:04:16,965 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 13:04:17,046 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 13:05:08,087 [main] INFO com.bank.testcases.Base - user name provided
+2022-08-20 13:05:08,150 [main] INFO com.bank.testcases.Base - password provided
+2022-08-20 13:06:04,394 [main] INFO com.bank.testcases.Base - user name provided
+2022-08-20 13:06:04,455 [main] INFO com.bank.testcases.Base - password provided
+2022-08-20 13:07:02,047 [main] INFO com.bank.testcases.Base - user name provided
+2022-08-20 13:07:02,105 [main] INFO com.bank.testcases.Base - password provided
+2022-08-20 13:08:00,466 [main] INFO com.bank.testcases.Base - user name provided
+2022-08-20 13:08:00,530 [main] INFO com.bank.testcases.Base - password provided
+2022-08-20 13:08:34,447 [main] INFO com.bank.testcases.Base - user name provided
+2022-08-20 13:08:34,507 [main] INFO com.bank.testcases.Base - password provided
+2022-08-20 13:09:24,474 [main] INFO com.bank.testcases.Base - User name is provided
+2022-08-20 13:09:24,537 [main] INFO com.bank.testcases.Base - Passsword is provided
+2022-08-20 13:11:12,646 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 13:11:12,669 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 13:11:12,791 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 14:12:27,406 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 14:12:27,426 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 14:12:27,493 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 14:24:49,614 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 14:24:49,634 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 14:24:49,709 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 14:52:31,251 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 14:52:31,289 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 14:52:31,415 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 14:57:01,466 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 14:57:01,501 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 14:57:01,625 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 15:00:30,099 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 15:00:30,137 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 15:00:30,272 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 15:26:56,376 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 15:26:56,419 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 15:26:56,548 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 15:34:16,334 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 15:34:16,378 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 15:34:16,547 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 16:59:59,466 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 16:59:59,548 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 16:59:59,760 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 17:07:54,726 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 17:07:54,772 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 17:07:54,893 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 17:14:17,413 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 17:14:17,455 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 17:14:17,703 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 17:24:13,136 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 17:24:13,183 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 17:24:13,307 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 17:30:01,005 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 17:30:01,054 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 17:30:01,184 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 17:41:21,140 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 17:41:21,188 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 17:41:21,311 [main] INFO com.bank.testcases.Base - Take password
+2022-08-20 19:39:53,464 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 19:39:53,526 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 19:44:43,312 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 19:44:43,337 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 19:46:32,116 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 19:46:32,179 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 19:53:54,027 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 19:53:54,076 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 20:11:28,378 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 20:11:28,425 [main] INFO com.bank.testcases.Base - Take username
+2022-08-20 21:33:28,696 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-20 21:33:28,730 [main] INFO com.bank.testcases.Base - Take username

@@ -5,8 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.ITestResult;
+
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.bank.Utils.Reporting;
 
 public class LoginPage {
+	
 	
 	
 WebDriver ldriver;
@@ -39,22 +45,29 @@ WebDriver ldriver;
 	public void setUserName(String uname)
 	{
 		txtUserName.sendKeys(uname);
+	
+		
 	}
 	
 	public void setPassword(String pwd)
 	{
 		txtPassword.sendKeys(pwd);
+		
 	}
 	
 	
 	public void clickSubmit()
 	{
 		btnLogin.click();
+		
+
+		
 	}	
 	
 	public void clickLogout()
 	{
 		lnkLogout.click();
-	}
+	
 
+}
 }
