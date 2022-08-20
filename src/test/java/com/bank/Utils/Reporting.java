@@ -32,10 +32,10 @@ public class Reporting extends TestListenerAdapter{
 	@Override	
 	public void onStart(ITestContext testContext)
 	{
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
-		String repName="Test-Report-"+timeStamp+".html";
+		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+		//String repName="Test-Report-"+timeStamp+".html";
 
-		htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+ "/test-output/"+repName);//specify location of the report
+		htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+ "Test-output/Extent Reports/report.html");//specify location of the report
 		try {
 			htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/Extent-config.xml");
 		} catch (IOException e) {
