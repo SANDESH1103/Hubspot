@@ -4,12 +4,14 @@ package com.bank.testcases;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.Duration;
+import java.lang.reflect.Method;
+
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+
 import org.checkerframework.common.value.qual.StaticallyExecutable;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -33,13 +35,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 	ReadConfig read = new ReadConfig();
-	
+	 // Method method=new Method();
 	public static WebDriver driver;
     public  String url= read.getApplicationUrl();
 	public  String username= read.getUsername();
 	public  String password= read.getPassword();
-	public static Logger log;
-	public static ExtentTest test;
+    public Logger log;
+	
 	
 	
 	@Parameters ("browser")
@@ -68,7 +70,7 @@ public class Base {
 	
 	
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		//driver.manage().timeouts().impli
 		driver.manage().deleteAllCookies();
 		driver.get(url);
 		log=Logger.getLogger(Base.class);

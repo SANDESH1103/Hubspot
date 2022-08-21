@@ -35,11 +35,11 @@ public class Reporting extends TestListenerAdapter{
 		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		//String repName="Test-Report-"+timeStamp+".html";
 
-		htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+ "Test-output/Extent Reports/report.html");//specify location of the report
+		htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+ "/Test-output/Extent Reports/report.html");//specify location of the report
 		try {
 			htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/Extent-config.xml");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 
@@ -76,7 +76,7 @@ public class Reporting extends TestListenerAdapter{
 			String pathString=Base.captureScreen(Base.driver,tr.getName());
 			String base64String=Base.captureScreen(Base.driver);
 		
-		logger=extent.createTest(tr.getName()).info("Test report at test level").addScreenCaptureFromPath(pathString);
+		extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath(pathString);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String, tr.getName());
 		
@@ -88,15 +88,16 @@ public class Reporting extends TestListenerAdapter{
 		//Throwable t=new Throwable("this is custom exception");
 		//extent.createTest(tr.getName()).fail(t);
 		if(tr.getStatus()==ITestResult.FAILURE) {
-			logger.log(Status.FAIL,"Test case failed"+tr.getName());
-			logger.log(Status.FAIL,"Test case failed"+tr.getThrowable());
+			logger.log(Status.FAIL,"Test case failed=> "+tr.getName());
+			logger.log(Status.FAIL,"Test case failed=> "+tr.getThrowable());
+			logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));
 		}
 		
 			
 			
 		
 		
-		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the fail information to the report with RED color highlighted
+		 // send the fail information to the report with RED color highlighted
 
 //		String screenshotPath=System.getProperty("user.dir")+"\\Screenshot\\"+tr.getName()+".png";
 //
@@ -118,8 +119,8 @@ public class Reporting extends TestListenerAdapter{
 	public void onTestSkipped(ITestResult tr)
 	{
 		logger=extent.createTest(tr.getName()); // create new entry in th report
-		logger.log(Status.SKIP,"Test case Skipped"+tr.getName());
-		logger.log(Status.SKIP,"Test case Skipped"+tr.getThrowable());
+		logger.log(Status.SKIP,"Test case Skipped=> "+tr.getName());
+		logger.log(Status.SKIP,"Test case Skipped=> "+tr.getThrowable());
 		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
 	}
 	@Override

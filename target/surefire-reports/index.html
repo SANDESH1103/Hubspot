@@ -130,10 +130,10 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.createNode(String)&quot; because &quot;com.bank.Utils.Reporting.logger&quot; is null
-	at com.bank.testcases.LoginPageTest.login(LoginPageTest.java:28)
+                  <div class="stack-trace">java.lang.AssertionError: expected [HubSpot Home] but found [Guru99 Bank Home Page]
+	at com.bank.testcases.LoginPageTest.login(LoginPageTest.java:46)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -199,12 +199,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'com.bank.testcases.LoginPageTest')
-data.setCell(0, 3, 241);
+data.setCell(0, 3, 24881);
 window.suiteTableData['DemoSuite']= { tableData: data, tableDiv: 'times-div-DemoSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 241 ms</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-DemoSuite">
               </div> <!-- times-div-DemoSuite -->
             </div> <!-- times-div -->
@@ -239,11 +239,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login</span>
-                <span class="method-start">63588 ms</span>
+                <span class="method-start">32612 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">64581 ms</span>
+                <span class="method-start">58331 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
