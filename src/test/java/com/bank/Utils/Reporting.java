@@ -76,7 +76,7 @@ public class Reporting extends TestListenerAdapter{
 			String pathString=Base.captureScreen(Base.driver,tr.getName());
 			String base64String=Base.captureScreen(Base.driver);
 		
-		extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath(pathString);
+		extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath("."+pathString);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String, tr.getName());
 		
