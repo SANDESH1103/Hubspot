@@ -28,6 +28,7 @@ public class Reporting extends TestListenerAdapter{
 	public static ExtentSparkReporter htmlReporter;
 	public static ExtentReports extent;
 	public static ExtentTest logger;
+	String concateString=".";
 
 	@Override	
 	public void onStart(ITestContext testContext)
@@ -73,7 +74,7 @@ public class Reporting extends TestListenerAdapter{
 	public void onTestFailure(ITestResult tr) 
 	{
 		
-			String pathString=Base.captureScreen(Base.driver,tr.getName());
+			String pathString=concateString+Base.captureScreen(Base.driver,tr.getName());
 			String base64String=Base.captureScreen(Base.driver);
 		
 		extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath("."+pathString);

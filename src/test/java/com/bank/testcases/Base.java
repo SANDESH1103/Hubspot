@@ -84,9 +84,13 @@ public class Base {
 	public  static  String captureScreen ( WebDriver driver,String tname)   {
 		TakesScreenshot shoot=(TakesScreenshot)driver;
 		File src = shoot.getScreenshotAs(OutputType.FILE);
-		File dec =new File(System.getProperty("user.dir")+"/Screenshoot/"+ tname +".png");
+		File dec =new File("./Test-output/Extent Reports/Screenshots/"+ tname +System.currentTimeMillis()+".png");
+		File reportDir =new File("./Test-output/Extent Reports");
+		File mailDir =new File("D:/Mailable report.zip");
+		
 		try {
 			FileUtils.copyFile(src, dec);
+			FileUtils.copyFile(reportDir, mailDir);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
