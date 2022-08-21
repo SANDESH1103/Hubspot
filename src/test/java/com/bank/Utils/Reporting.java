@@ -82,9 +82,9 @@ public class Reporting extends TestListenerAdapter{
 		
 		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromBase64String(base64String).build());
 		
-		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString).build());
+		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath("."+pathString).build());
 		
-		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString,tr.getName()).build());
+		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath("."+pathString,tr.getName()).build());
 		//Throwable t=new Throwable("this is custom exception");
 		//extent.createTest(tr.getName()).fail(t);
 		if(tr.getStatus()==ITestResult.FAILURE) {
