@@ -85,18 +85,17 @@ public class Base {
 		TakesScreenshot shoot=(TakesScreenshot)driver;
 		File src = shoot.getScreenshotAs(OutputType.FILE);
 		File dec =new File("./Test-output/Extent Reports/Screenshots/"+ tname +System.currentTimeMillis()+".png");
-		File reportDir =new File("./Test-output/Extent Reports");
-		File mailDir =new File("D:/Mailable report.zip");
+	
 		
 		try {
 			FileUtils.copyFile(src, dec);
-			FileUtils.copyFile(reportDir, mailDir);
+			//FileUtils.copyFile(reportDir, mailDir);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		System.out.println("Screenshoot taken");
 		
-		return dec.getAbsolutePath();
+		return dec.toString();
 	}
 	public static String captureScreen(WebDriver driver)   {
 		TakesScreenshot shoot=(TakesScreenshot)driver;

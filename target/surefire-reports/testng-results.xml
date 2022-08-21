@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-21T12:10:08 IST" name="DemoSuite" finished-at="2022-08-21T12:11:07 IST" duration-ms="59104">
+  <suite started-at="2022-08-21T15:50:03 IST" name="DemoSuite" finished-at="2022-08-21T15:50:57 IST" duration-ms="54652">
     <groups>
     </groups>
-    <test started-at="2022-08-21T12:10:08 IST" name="Test" finished-at="2022-08-21T12:11:07 IST" duration-ms="59104">
+    <test started-at="2022-08-21T15:50:03 IST" name="Test" finished-at="2022-08-21T15:50:57 IST" duration-ms="54652">
       <class name="com.bank.testcases.LoginPageTest">
-        <test-method is-config="true" signature="initilization(java.lang.String)[pri:0, instance:com.bank.testcases.LoginPageTest@23c30a20]" started-at="2022-08-21T12:10:09 IST" name="initilization" finished-at="2022-08-21T12:10:41 IST" duration-ms="32610" status="PASS">
+        <test-method is-config="true" signature="initilization(java.lang.String)[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T15:50:03 IST" name="initilization" finished-at="2022-08-21T15:50:32 IST" duration-ms="29108" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="login()[pri:0, instance:com.bank.testcases.LoginPageTest@23c30a20]" started-at="2022-08-21T12:10:41 IST" name="login" finished-at="2022-08-21T12:11:06 IST" duration-ms="24881" status="FAIL">
+        <test-method signature="login()[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T15:50:32 IST" name="login" finished-at="2022-08-21T15:50:56 IST" duration-ms="24410" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [HubSpot Home] but found [Guru99 Bank Home Page]]]>
@@ -57,20 +57,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.testcases.LoginPageTest@23c30a20]" started-at="2022-08-21T12:11:07 IST" name="teardown" finished-at="2022-08-21T12:11:07 IST" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T15:50:57 IST" name="teardown" finished-at="2022-08-21T15:50:57 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
