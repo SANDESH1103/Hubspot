@@ -77,15 +77,15 @@ public class Reporting extends TestListenerAdapter{
 		
 			String base64String=Base.captureScreen(Base.driver);
 		
-		//extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath("."+pathString);
+		extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath("."+pathString);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String, tr.getName());
 		
 		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromBase64String(base64String).build());
 		
-		//extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString).build());
+		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString).build());
 		
-		//extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString,tr.getName()).build());
+		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString,tr.getName()).build());
 		//Throwable t=new Throwable("this is custom exception");
 		//extent.createTest(tr.getName()).fail(t);
 		if(tr.getStatus()==ITestResult.FAILURE) {
