@@ -1018,3 +1018,9 @@
 2022-08-21 15:55:01,195 [main] INFO com.bank.testcases.Base - Excution starts
 2022-08-21 15:55:01,293 [main] INFO com.bank.testcases.Base - Take username
 2022-08-21 15:55:01,428 [main] INFO com.bank.testcases.Base - Take password
+2022-08-21 16:21:52,841 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-21 16:21:52,942 [main] INFO com.bank.testcases.Base - Take username
+2022-08-21 16:21:53,085 [main] INFO com.bank.testcases.Base - Take password
+2022-08-21 16:23:47,166 [main] INFO com.bank.testcases.Base - Excution starts
+2022-08-21 16:23:47,202 [main] INFO com.bank.testcases.Base - Take username
+2022-08-21 16:23:47,363 [main] INFO com.bank.testcases.Base - Take password

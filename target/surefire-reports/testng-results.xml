@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-21T15:50:03 IST" name="DemoSuite" finished-at="2022-08-21T15:50:57 IST" duration-ms="54652">
+  <suite started-at="2022-08-21T16:23:15 IST" name="DemoSuite" finished-at="2022-08-21T16:24:13 IST" duration-ms="58004">
     <groups>
     </groups>
-    <test started-at="2022-08-21T15:50:03 IST" name="Test" finished-at="2022-08-21T15:50:57 IST" duration-ms="54652">
+    <test started-at="2022-08-21T16:23:15 IST" name="Test" finished-at="2022-08-21T16:24:13 IST" duration-ms="58004">
       <class name="com.bank.testcases.LoginPageTest">
-        <test-method is-config="true" signature="initilization(java.lang.String)[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T15:50:03 IST" name="initilization" finished-at="2022-08-21T15:50:32 IST" duration-ms="29108" status="PASS">
+        <test-method is-config="true" signature="initilization(java.lang.String)[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T16:23:15 IST" name="initilization" finished-at="2022-08-21T16:23:47 IST" duration-ms="31447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="login()[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T15:50:32 IST" name="login" finished-at="2022-08-21T15:50:56 IST" duration-ms="24410" status="FAIL">
+        <test-method signature="login()[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T16:23:47 IST" name="login" finished-at="2022-08-21T16:24:12 IST" duration-ms="25023" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [HubSpot Home] but found [Guru99 Bank Home Page]]]>
@@ -70,7 +70,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T15:50:57 IST" name="teardown" finished-at="2022-08-21T15:50:57 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.testcases.LoginPageTest@485966cc]" started-at="2022-08-21T16:24:12 IST" name="teardown" finished-at="2022-08-21T16:24:13 IST" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

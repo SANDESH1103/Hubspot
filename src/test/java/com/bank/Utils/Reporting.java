@@ -26,7 +26,7 @@ public class Reporting extends TestListenerAdapter{
 
 	public static ExtentSparkReporter htmlReporter;
 	public static ExtentReports extent;
-	public static ExtentTest logger;
+	public static ExtentTest test;
 	String concateString=".";
 
 	@Override	
@@ -57,42 +57,43 @@ public class Reporting extends TestListenerAdapter{
 	}
 	@Override
 	public void onTestStart(ITestResult tr) {
-		extent.createTest(tr.getName());
+		test=extent.createTest(tr.getName());
 	}
 	
 	@Override
 	public void onTestSuccess(ITestResult tr)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in th report
-		logger.log(Status.PASS,"Test Case Pass"+tr.getName());
-		logger.log(Status.PASS,"Test Case Pass "+tr.getThrowable());
+		//test=extent.createTest(tr.getName()); // create new entry in th report
+		test.log(Status.PASS,"Test Case Pass"+tr.getName());
+		test.log(Status.PASS,"Test Case Pass "+tr.getThrowable());
 		
-		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
+		test.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
 	}
 	@Override
 	public void onTestFailure(ITestResult tr) 
 	{
 		
-			String pathString=concateString+Base.captureScreen(Base.driver,tr.getName());
+			Base.captureScreen(Base.driver,tr.getName());
 		
 			String base64String=Base.captureScreen(Base.driver);
 		
-		extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath("."+pathString);
+	//	extent.createTest(tr.getName()).info("Test report at test level").fail(tr.getName()).addScreenCaptureFromPath("."+pathString);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String);
 		extent.createTest(tr.getName()).fail(tr.getName()).addScreenCaptureFromBase64String(base64String, tr.getName());
 		
 		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromBase64String(base64String).build());
 		
-		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString).build());
+		//extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString).build());
 		
-		extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString,tr.getName()).build());
+		//extent.createTest(tr.getName()).fail(tr.getName(), MediaEntityBuilder.createScreenCaptureFromPath(pathString,tr.getName()).build());
 		//Throwable t=new Throwable("this is custom exception");
 		//extent.createTest(tr.getName()).fail(t);
 		if(tr.getStatus()==ITestResult.FAILURE) {
-//			logger.log(Status.FAIL,"Test case failed=> "+tr.getName());
-//			logger.log(Status.FAIL,"Test case failed=> "+tr.getThrowable());
-//			logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));
-			
+			//test=extent.createTest(tr.getName());
+			test.log(Status.FAIL,"Test case failed=> "+tr.getName());
+			test.log(Status.FAIL,"Test case failed=> "+tr.getThrowable());
+			test.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));
+		
 			
 		}
 		
@@ -121,10 +122,10 @@ public class Reporting extends TestListenerAdapter{
 	@Override
 	public void onTestSkipped(ITestResult tr)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in th report
-		logger.log(Status.SKIP,"Test case Skipped=> "+tr.getName());
-		logger.log(Status.SKIP,"Test case Skipped=> "+tr.getThrowable());
-		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
+		//test=extent.createTest(tr.getName()); // create new entry in th report
+		test.log(Status.SKIP,"Test case Skipped=> "+tr.getName());
+		test.log(Status.SKIP,"Test case Skipped=> "+tr.getThrowable());
+		test.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
 	}
 	@Override
 	public void onFinish(ITestContext testContext)

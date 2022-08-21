@@ -5,7 +5,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Method;
-
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -84,7 +85,9 @@ public class Base {
 	public  static  String captureScreen ( WebDriver driver,String tname)   {
 		TakesScreenshot shoot=(TakesScreenshot)driver;
 		File src = shoot.getScreenshotAs(OutputType.FILE);
-		File dec =new File("./Test-output/Extent Reports/Screenshots/"+ tname +System.currentTimeMillis()+".png");
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+		
+		File dec =new File("./Test-output/Extent Reports/Screenshots/"+ tname +" "+timeStamp+".png");
 	
 		
 		try {
